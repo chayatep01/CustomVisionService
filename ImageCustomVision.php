@@ -1,7 +1,7 @@
 <?php
     //save file image
-    $predictionKey="{Prediction Key}";
-    $projectId="{Project Id}";
+    $predictionKey="71d3af2f325c4c6ebca84e71b0a36130";
+    $projectId="f9490ea0-0264-4b4b-abb8-6429870f54fb";
 	$uploadDir="upload/";
 	$fileImage=$_FILES["fileImage"]["name"];    
     $ext=pathinfo($fileImage,PATHINFO_EXTENSION);
